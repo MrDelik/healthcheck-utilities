@@ -1,6 +1,7 @@
 {
   "name": "healthcheck-utilities",
   "version": "1.0.0",
+  "license": "MIT",
   "type": "module",
   "main": "./build/index.js",
   "module": "./build/index.js",
