@@ -1,0 +1,8 @@
+enums/
+errors/
+tests/
+.github/
+coverage/
+node_modules/
+index.ts
+bunfig.toml

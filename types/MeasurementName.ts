@@ -1,0 +1,1 @@
+export type MeasurementName = 'utilization' | 'responseTime' | 'connections' | 'uptime' | (string & {});

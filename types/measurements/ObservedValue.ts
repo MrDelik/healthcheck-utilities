@@ -1,0 +1,1 @@
+export type ObservedValue = string | number | object

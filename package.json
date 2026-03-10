@@ -1,0 +1,28 @@
+{
+  "name": "healthcheck-utilities",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./build/index.js",
+  "module": "./build/index.js",
+  "types": "./typesDeclarations/index.d.ts",
+  "scripts": {
+    "test": "bun test",
+    "test:coverage": "bun test --coverage --coverage-reporter=text"
+  },
+  "exports": {
+    ".": {
+      "import": "./build/index.js",
+      "types": "./typesDeclarations/index.d.ts"
+    }
+  },
+  "files": [
+    "build",
+    "typesDeclarations"
+  ],
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}

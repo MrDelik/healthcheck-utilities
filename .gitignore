@@ -1,0 +1,4 @@
+build/
+typesDeclarations/
+node_modules/
+*.tgz
